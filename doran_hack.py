@@ -34,7 +34,7 @@ def log_in(driver):
 		email = driver.find_element_by_id('email')
 
 		password = driver.find_element_by_id('pass')
-		email.send_keys('petrus_91@hotmail.com')
+		email.send_keys('**********')
 		password.send_keys(get_input_from_user())
 		email.send_keys(Keys.ENTER)
 		print("Logg Inn -> Completed")
